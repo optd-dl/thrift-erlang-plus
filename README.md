@@ -4,7 +4,7 @@ Thrift Keep Long Connect For Erlang
 
 On the basis of thrift joined the connection information conservation service, in order to realize the long connection
 
-1.Thrift protocol��
+1.Thrift protocol：
     You need to complete thrift protocol coding refer to https://github.com/apache/thrift for more information
     
 2.Configuration (../include/lthrift_conf.hrl)
@@ -19,7 +19,7 @@ On the basis of thrift joined the connection information conservation service, i
    
    * POOL_UPDATE_TIME : every POOL_UPDATE_TIME time lthrift will mark a new timestamp.
     
-   * POOL_DYN_CONNECT_NUM ��base pool can keep max process number, every process uses to connect target address, if there is more access than POOL_CONNECT_NUM, lthrift will build short connection.
+   * POOL_DYN_CONNECT_NUM ：base pool can keep max process number, every process uses to connect target address, if there is more access than POOL_CONNECT_NUM, lthrift will build short connection.
    
    * POOL_DYN_NAME : lthrift server name, you can define any word if you do not like the default name
 
